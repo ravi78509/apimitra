@@ -1,11 +1,14 @@
-APIMITRA WEBSITE - UPDATED DEMO
+APIMITRA FIREBASE UPDATE
 
-GitHub repository me index.html aur README_HINDI.txt upload karein.
-Retailer Registration demo: naam, mobile, email, password; demo OTP verify karne par turant registration, Admin approval nahi.
+1) GitHub repository me index.html ko is package wali index.html se replace karein.
+2) Firebase Console > Firestore Database > Rules me firestore.rules.txt ka content paste karke Publish karein.
+3) Firebase Authentication > Settings > Authorized domains me ravi78509.github.io hona chahiye.
+4) Authentication > Sign-in method me Phone enabled hona chahiye.
+5) GitHub Pages par deploy hone ke baad https://ravi78509.github.io/apimitra/ ko Ctrl+F5 se refresh karein.
 
 IMPORTANT:
-- OTP screen par demo ke roop me dikhaya jata hai; SMS nahi bheja jata.
-- Demo data browser memory me hi rehta hai; refresh par mit sakta hai.
-- Real OTP/login ke liye secure backend, database aur SMS gateway chahiye.
-- Real wallet/payment/commission ya government services active nahi hain.
-- Demo me asli personal information na daalein.
+- Yeh Firebase Phone Auth (SMS OTP) + Firestore retailer profile ka starter integration hai.
+- Firestore Rules ko publish kiye bina real customer data store na karein.
+- Firebase Phone Auth me SMS quota, billing/verification limits aur country availability lagu hoti hai. Firebase console me current plan/limits check karein.
+- Firebase web apiKey browser config hoti hai, lekin ise security secret na samjhein. Security Firestore Rules aur Auth se hoti hai.
+- Wallet balance, payments, commissions, admin/distributor roles aur service APIs abhi implement nahi hain.
