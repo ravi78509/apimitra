@@ -1,14 +1,15 @@
-APIMITRA FIREBASE UPDATE
+APIMITRA WEBSITE UPDATE
 
-1) GitHub repository me index.html ko is package wali index.html se replace karein.
-2) Firebase Console > Firestore Database > Rules me firestore.rules.txt ka content paste karke Publish karein.
-3) Firebase Authentication > Settings > Authorized domains me ravi78509.github.io hona chahiye.
-4) Authentication > Sign-in method me Phone enabled hona chahiye.
-5) GitHub Pages par deploy hone ke baad https://ravi78509.github.io/apimitra/ ko Ctrl+F5 se refresh karein.
+1. GitHub repository: ravi78509/apimitra
+2. Open index.html in the repository.
+3. Replace the old file with this index.html and commit changes.
+4. GitHub Pages will publish the update after a short wait.
 
-IMPORTANT:
-- Yeh Firebase Phone Auth (SMS OTP) + Firestore retailer profile ka starter integration hai.
-- Firestore Rules ko publish kiye bina real customer data store na karein.
-- Firebase Phone Auth me SMS quota, billing/verification limits aur country availability lagu hoti hai. Firebase console me current plan/limits check karein.
-- Firebase web apiKey browser config hoti hai, lekin ise security secret na samjhein. Security Firestore Rules aur Auth se hoti hai.
-- Wallet balance, payments, commissions, admin/distributor roles aur service APIs abhi implement nahi hain.
+IMPORTANT
+- This package updates the website interface and page layouts.
+- Firebase Phone OTP still depends on Firebase billing/region configuration.
+- Wallet Add Money is only a request/demo UI. It does NOT collect money or credit a real balance.
+- Do not accept customer funds until a compliant payment/ledger backend and any required regulatory approvals are in place.
+- Admin and Distributor pages are interface layouts, not secure live control panels yet.
+- Government, Aadhaar, banking, AEPS, recharge and bill-payment services require authorized provider/API agreements and permissions.
+- Replace Firestore test-mode rules before collecting real user data.
