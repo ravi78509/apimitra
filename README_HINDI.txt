@@ -1,16 +1,11 @@
-APIMITRA WEBSITE - FREE STATIC DEMO
+APIMITRA WEBSITE - UPDATED DEMO
 
-1. index.html ko browser me double-click karke locally dekhein.
-2. Free hosting ke liye GitHub par account banayein.
-3. New public repository banayein: apimitra
-4. index.html upload karein.
-5. Repository Settings > Pages > Deploy from a branch > main > /(root) > Save.
-6. Kuch minute baad website https://YOUR-USERNAME.github.io/apimitra/ par live hogi.
+GitHub repository me index.html aur README_HINDI.txt upload karein.
+Retailer Registration demo: naam, mobile, email, password; demo OTP verify karne par turant registration, Admin approval nahi.
 
 IMPORTANT:
-- Yeh static frontend demo hai; abhi real login, retailer registration, wallet, commission,
-  database, payments ya government/private data APIs connected nahi hain.
-- Real users/passwords/identity documents ko is demo me enter na karein.
-- Aadhaar/PAN/banking services ke liye authorized providers, consent, security controls,
-  legal/compliance review aur secure backend ki zarurat hogi.
-- GitHub Pages static hosting hai; is par secret API keys ya sensitive user data na rakhein.
+- OTP screen par demo ke roop me dikhaya jata hai; SMS nahi bheja jata.
+- Demo data browser memory me hi rehta hai; refresh par mit sakta hai.
+- Real OTP/login ke liye secure backend, database aur SMS gateway chahiye.
+- Real wallet/payment/commission ya government services active nahi hain.
+- Demo me asli personal information na daalein.
